@@ -2762,6 +2762,7 @@ input, select, textarea {
 			.tiles article header {
 				position: relative;
 				z-index: 3;
+				text-shadow: 2px 2px 2px #515151;
 			}
 
 			.tiles article h3 {
@@ -2792,7 +2793,7 @@ input, select, textarea {
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.85;
+				opacity: 0.90;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
