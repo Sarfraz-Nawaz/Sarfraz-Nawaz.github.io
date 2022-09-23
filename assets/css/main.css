@@ -4019,6 +4019,14 @@ input, select, textarea {
 			background-position: center;
 			background-attachment: fixed;
 		}
+
+		#mss{
+			background-image: url(../../images/mss.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			background-position: center;
+			background-attachment: fixed;
+		}
 		
 		.chapter{
 			position: relative;
@@ -4045,6 +4053,15 @@ input, select, textarea {
 
 		#fritolay{
 			background-image: url(../../images/fritolay.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			background-position: top;
+			background-attachment: inherit;
+			/* height: 250px; */
+		}
+
+		#mss{
+			background-image: url(../../images/mss.jpg);
 			background-repeat: no-repeat;
 			background-size: 100% auto;
 			background-position: top;
