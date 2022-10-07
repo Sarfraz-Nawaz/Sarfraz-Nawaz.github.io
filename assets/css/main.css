@@ -4027,6 +4027,14 @@ input, select, textarea {
 			background-position: center;
 			background-attachment: fixed;
 		}
+
+		#dbs{
+			background-image: url(../../images/dbs.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			background-position: center;
+			background-attachment: fixed;
+		}
 		
 		.chapter{
 			position: relative;
@@ -4062,6 +4070,15 @@ input, select, textarea {
 
 		#mss{
 			background-image: url(../../images/MSS.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			background-position: top;
+			background-attachment: inherit;
+			/* height: 250px; */
+		}
+
+		#dbs{
+			background-image: url(../../images/dbs.jpg);
 			background-repeat: no-repeat;
 			background-size: 100% auto;
 			background-position: top;
