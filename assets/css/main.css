@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+/* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic"); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 /*
 	Forty by HTML5 UP
@@ -117,7 +118,9 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		/* font-family: "Source Sans Pro", Helvetica, sans-serif; */
+		font-family: 'Poppins', sans-serif;
+		font-family:;
 		font-size: 17pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
@@ -1793,10 +1796,11 @@ input, select, textarea {
 
 		header.major > p {
 			font-size: 0.7em;
-			font-weight: 600;
-			letter-spacing: 0.25em;
+			/* font-weight: 600; */
+			/* letter-spacing: 0.25em; */
 			margin-bottom: 0;
-			text-transform: uppercase;
+			text-transform:none;
+			text-shadow: 2px 2px 8px #242943;
 		}
 
 		body.is-ie header.major > :first-child:after {
@@ -2762,7 +2766,7 @@ input, select, textarea {
 			.tiles article header {
 				position: relative;
 				z-index: 3;
-				text-shadow: 2px 2px 2px #515151;
+				/* text-shadow: 2px 2px 2px #515151; */
 			}
 
 			.tiles article h3 {
@@ -2771,13 +2775,14 @@ input, select, textarea {
 
 				.tiles article h3 a:hover {
 					color: inherit !important;
+					/* text-shadow: 2px 2px 2px #515151; */
 				}
 
 			.tiles article .link.primary {
 				border: 0;
 				height: 100%;
 				left: 0;
-				position: absolute;
+				position: relative;
 				top: 0;
 				width: 100%;
 				z-index: 4;
@@ -4012,6 +4017,14 @@ input, select, textarea {
 @media screen and (max-width: 1920px) {
 
 
+	#equitas{
+		background-image: url(../../images/equitas2.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		background-position: center 350%;
+		background-attachment: fixed;
+	}
+
 		#fritolay{
 			background-image: url(../../images/fritolay_banner.jpg);
 			background-repeat: no-repeat;
@@ -4057,6 +4070,14 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 480px) {
+
+		#equitas{
+			background-image: url(../../images/equitas2.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			background-position: top;
+			background-attachment: inherit;
+		}
 
 
 		#fritolay{
