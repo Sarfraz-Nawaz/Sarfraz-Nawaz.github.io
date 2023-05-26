@@ -3126,7 +3126,8 @@ input, select, textarea {
 		font-weight: 600;
 		height: 3.25em;
 		left: 0;
-		letter-spacing: 0.25em;
+		/* letter-spacing: 0.25em; */
+		letter-spacing: 0.1em;
 		line-height: 3.25em;
 		margin: 0;
 		position: fixed;
@@ -3328,7 +3329,7 @@ input, select, textarea {
 				}
 
 				#header nav a {
-					padding: 0 0.5em;
+					padding: 12px 0.5em;
 				}
 
 					#header nav a:last-child {
@@ -4127,3 +4128,30 @@ input, select, textarea {
 		  }
 
 	}
+
+/* .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+} */
+
+/*  scroll css section here*/
+/* .scrolltop .icon {
+    font-size: 30px;
+    text-align: center;
+    transform: rotate(-45deg);
+    margin-top: 10px;
+}
+
+.scrolltop {
+    position: fixed;
+    bottom: 70px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: none;
+} */
