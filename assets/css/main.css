@@ -4155,3 +4155,7 @@ input, select, textarea {
     background-color: #fff;
     display: none;
 } */
+
+.color-higlight{
+	color: aqua !important;
+}
