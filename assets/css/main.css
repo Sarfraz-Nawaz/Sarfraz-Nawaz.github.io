@@ -4126,6 +4126,13 @@ input, select, textarea {
 		.column img {
 			height: auto;
 		  }
+		
+		.actions{
+			display:block;
+		}
+		
+		ul.actions li {
+			padding: 0 0 1em 1em;
 
 	}
 
