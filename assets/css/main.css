@@ -4128,7 +4128,7 @@ input, select, textarea {
 		  }
 		
 		.actions{
-			display:block;
+			display:block !important;
 		}
 		
 		ul.actions li {
