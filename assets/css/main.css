@@ -4018,6 +4018,14 @@ input, select, textarea {
 @media screen and (max-width: 1920px) {
 
 
+	#nationalgrid{
+		background-image: url(../../images/nationalgrid.png);
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		background-position: center 130%;
+		background-attachment: fixed;
+	}
+	
 	#equitas{
 		background-image: url(../../images/equitas2.jpg);
 		background-repeat: no-repeat;
@@ -4071,6 +4079,13 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 480px) {
+		#nationalgrid{
+		background-image: url(../../images/nationalgrid.png);
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		background-position: top;
+		background-attachment: fixed;
+	}
 
 		#equitas{
 			background-image: url(../../images/equitas2.jpg);
