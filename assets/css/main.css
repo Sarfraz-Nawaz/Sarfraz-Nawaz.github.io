@@ -1776,7 +1776,6 @@ input, select, textarea {
 		width: -moz-max-content;
 		width: -webkit-max-content;
 		width: -ms-max-content;
-		/* width: max-content; */
 		width: auto;
 		margin-bottom: 2em;
 	}
