@@ -1785,7 +1785,6 @@ input, select, textarea {
 			margin-bottom: 0;
 			/* width: calc(100% + 0.5em); */
 			width: max-content;
-			width: ;
 		}
 
 			/* header.major > :first-child:after {
