@@ -1776,7 +1776,8 @@ input, select, textarea {
 		width: -moz-max-content;
 		width: -webkit-max-content;
 		width: -ms-max-content;
-		width: max-content;
+		/* width: max-content; */
+		width: 400px;
 		margin-bottom: 2em;
 	}
 
@@ -1785,14 +1786,14 @@ input, select, textarea {
 			width: calc(100% + 0.5em);
 		}
 
-			header.major > :first-child:after {
+			/* header.major > :first-child:after {
 				content: '';
 				background-color: #ffffff;
 				display: block;
 				height: 2px;
 				margin: 0.325em 0 0.5em 0;
 				width: 100%;
-			}
+			} */
 
 		header.major > p {
 			font-size: 0.7em;
@@ -2764,9 +2765,10 @@ input, select, textarea {
 			}
 
 			.tiles article header {
-				position: relative;
+				/* position: relative; */
+				position: absolute;
 				z-index: 3;
-				/* text-shadow: 2px 2px 2px #515151; */
+				text-shadow: 2px 2px 2px #515151;
 			}
 
 			.tiles article h3 {
