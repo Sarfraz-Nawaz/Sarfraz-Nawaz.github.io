@@ -3991,7 +3991,14 @@ input, select, textarea {
 	/* padding:0; */
 	text-align: center;
 	/* height: 2000px; */
-	padding: 0 0 50px;
+	/* padding: 0 0 50px; */
+	padding: 0 0 30px;
+}
+
+#bg-box{
+	border: 1px solid color(srgb 0.2953 0.3501 0.635);
+	background-color: #39416a;
+	padding: 20px 20px 20px 20px;
 }
 
 * {
