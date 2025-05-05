@@ -4191,7 +4191,7 @@ input, select, textarea {
 	color: #9bf1ff !important;
 }
 
-.flex-container {
+/* .flex-container {
   display: flex;
   flex-wrap: wrap;
 }
@@ -4209,4 +4209,4 @@ input, select, textarea {
   .flex-item-right, .flex-item-left {
     flex: 100%;
   }
-}
+} */
