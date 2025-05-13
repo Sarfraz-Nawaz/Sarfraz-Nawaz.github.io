@@ -2785,7 +2785,7 @@ input, select, textarea {
 				border: 0;
 				height: 100%;
 				left: 0;
-				position: relative;
+				position: static;
 				top: 0;
 				width: 100%;
 				z-index: 4;
