@@ -1777,7 +1777,7 @@ input, select, textarea {
 		width: -webkit-max-content;
 		width: -ms-max-content;
 		width: auto !important;
-		margin-bottom: 2em;
+		margin-bottom: 0;
 	}
 
 		header.major > :first-child {
@@ -3473,7 +3473,7 @@ input, select, textarea {
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
-				margin: 0 0 2em 0;
+				margin: 0 0 0 0;
 			}
 
 				#banner > .inner .content > * {
